@@ -5,15 +5,39 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical"
     android:padding="30dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="To Do"
+        android:textSize="34sp" />
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="326dp"
-        app:srcCompat="@drawable/f898bfb34a80f0784e1417c86a096e13" />
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_margin="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:padding="0dp"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:scrollbarDefaultDelayBeforeFade="0"
+        app:srcCompat="@drawable/nnnn" />
 
     <EditText
         android:id="@+id/et_email"
@@ -23,6 +47,8 @@
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
+        android:textColor="#DEDEDE"
+        android:textColorHint="#050505"
         android:textSize="24sp" />
 
     <EditText
@@ -33,6 +59,7 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+        android:textColorHint="#070707"
         android:textSize="24sp" />
 
     <Button
@@ -41,7 +68,10 @@
         android:layout_height="83dp"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
+        android:backgroundTint="#0950B7"
         android:text="connect"
+        android:textColor="#070707"
+        android:textColorLink="#1350B4"
         android:textSize="24sp" />
 
     <TextView
@@ -49,6 +79,7 @@
         android:layout_width="match_parent"
         android:layout_height="32dp"
         android:layout_marginTop="30dp"
+        android:background="#FFFDFD"
         android:text="D'ont have an account,Signup"
         android:textSize="16sp"
         android:textStyle="bold|italic" />
